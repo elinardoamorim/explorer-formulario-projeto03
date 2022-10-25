@@ -33,6 +33,7 @@ header {
 
 header h1 {
   font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
   font-size: 48px;
   line-height: 60px;
   color: #FFFFFF;
@@ -49,13 +50,13 @@ form {
   background: #FFFFFF;
   min-height: 300px;
   margin-top: 58px;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 
   padding: 64px;
 
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 14px;
 }
 
 fieldset {
@@ -64,6 +65,7 @@ fieldset {
 
 .fieldset-wrapper legend {
   font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
   color: #535971;
   font-size: 24px;
   line-height: 34px;
@@ -114,8 +116,66 @@ fieldset {
   width: 100%;
 
   padding: 0 16px;
-  
 }
+
+.fieldset-wrapper h2 {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 20;
+  line-height: 34px;
+  color: #535971;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.fieldset-wrapper .col-3 {
+  display: flex;
+  gap: 10px;
+}
+
+.fieldset-wrapper .col-3 > div:nth-child(1){
+  width: 50%;
+  margin-right: 20px;
+}
+
+.fieldset-wrapper .col-3 > div {
+  width: 25%;
+}
+
+footer {
+  width: 750px;
+  height: 160px;
+  background: #535971;
+  border-radius: 0 0 20px 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-bottom: 20px;
+}
+
+footer input {
+  font-family: 'Staatliches', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+  width: 608px;
+  height: 56px;
+  background: #FF5374;
+  border: 0;
+  border-radius: 20px;
+
+  margin: auto;
+}
+
+footer input:hover {
+  background: #be324e;
+  cursor: pointer;
+}
+
 
 
 
